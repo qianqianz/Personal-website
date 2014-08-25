@@ -1,0 +1,142 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #5b4c4c;
+  /*background-color: #73AEAE;*/
+
+  /*background-color: lightblue;*/
+	color:white;
+}
+.navbar{
+	background-color: #009999;
+	/*background-color: #73AEAE;*/
+	border-color:white;
+}
+ul.nav,.jumbotron h1{
+	font-family: 'Arvo', courier, serif;
+}
+ul.nav{
+	font-size:15px;
+}
+.navbar-inverse .navbar-nav > li{
+	/*background-color: #FF9966;*/
+	border-radius: 8px;
+	margin: 4px;
+	padding: 0;
+	line-height: 1;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: lightgrey;
+	line-height: 0.7;
+}
+.jumbotron{
+	 text-align: center;
+	 /*background-image:url("../images/hero_image.jpg");*/
+	 color:#5b4c4c;
+	 background-color: #f2efed;
+}
+.align-right{
+	text-align: right;
+}
+.welcome-into{
+	padding-top:40px;
+}
+.jumbotron h1{
+	margin:0 auto;
+	margin-bottom: 50px;
+	padding:0 40px;
+	font-size: 24px;
+	text-align: left;
+	/*width: 800px;*/
+}
+.jombotron p{
+	margin-bottom: 30px;
+	font-weight: 100;
+	padding: 0 50px;
+}
+.portfolio{width:860px; height:358px; margin:0 auto; background:#494949; padding:30px 40px 20px; position:relative; margin-bottom:40px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px; position:relative;}
+.portfolio .prev{
+	left: 40px;
+bottom: 30px;
+background-position: -890px 6px;
+padding-left: 15px;
+}
+.webpages {
+position: absolute !important;
+width: 630px;
+height: 383px !important;
+z-index: 2;
+overflow: hidden;
+right: 0;
+bottom: 0;
+}
+/*.webpages li.different img {
+position: absolute;
+right: 0;
+bottom: 0;
+}*/
+
+.btn-lg {
+	font-size:24px;
+}
+.contact{
+	padding-top:20px;
+}
+.contact h1, .contact h2 , .contact .submit{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+.contact h2{
+	font-size: 20px;
+}
+.contact .col-md-4 p{
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top: 40px;
+	width: 240px;
+	margin-bottom: 12px;
+	line-height: 17px;
+}
+.contact .email:focus, .contact textarea:focus{
+	background-color: white;
+}
+.contact .email, .contact textarea{
+	width: 360px;
+	margin: 0 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	background-color: #a69c9c;
+	color: #534848;
+	border-radius: 6px;
+	border-size:0;
+}
+.contact .submit{
+	background-image:url("../image/submit.png");
+	background-position: left;
+	background-repeat: no-repeat;
+	text-align:center;
+	background-color: transparent;
+	color:#5b4c4c;
+	/*color:white;*/
+	/*border-radius: 6px;*/
+	font-size: 16px;
+	font-weight: bold;
+	width: 180px;
+	padding-top:30px;
+	padding-bottom: 225px;
+	border-width:0;
+}
+.contact .submit:active, .contact .submit:focus{
+	border-width: 0;
+	outline:0;
+	box-shadow: 0 0;
+}
+.links{
+	margin-top: 40px;
+	list-style-type: none;
+	text-indent: -20px;
+}
+.links li{
+	float: left;
+	width: 40px;
+}
